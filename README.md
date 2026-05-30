@@ -9,7 +9,7 @@
 
 ## 📋 Summary
 
-A **High-severity identity impersonation vulnerability** was discovered in the Intercom chat widget integration on `goaudits.com`. The widget was bootstrapped client-side without server-signed identity verification (HMAC tokens), allowing an attacker who knows a victim's email address to impersonate that user and access their prior chat history.
+A **High-severity identity impersonation vulnerability** was discovered in the Intercom chat widget integration on `de.fi`. The widget was bootstrapped client-side without server-signed identity verification (HMAC tokens), allowing an attacker who knows a victim's email address to impersonate that user and access their prior chat history.
 
 The vulnerability was responsibly disclosed to the affected vendor. The report was accepted and forwarded to **Intercom's security team** for remediation.
 
@@ -19,7 +19,7 @@ The vulnerability was responsibly disclosed to the affected vendor. The report w
 
 | Field | Details |
 |---|---|
-| Target | `https://goaudits.com` |
+| Target | `https://de.fi` |
 | Component | Intercom chat widget (client-side integration) |
 | Vulnerability Type | Missing Identity Verification / Authentication Bypass |
 | CWE | CWE-306: Missing Authentication for Critical Function |
@@ -53,7 +53,7 @@ Intercom('boot', { email: 'victim@example.com' });
 
 ## 🔁 Reproduction Steps (Redacted Safe PoC)
 
-1. Visit `https://goaudits.com` and log in to an account.
+1. Visit `https://de.fi` and log in to an account.
 2. Initiate a conversation via the Intercom chat widget.
 3. Close and terminate the session.
 4. Open a **new browser session** on the same site and launch Developer Tools.
@@ -123,7 +123,7 @@ Intercom('boot', { email: 'victim@example.com' });
 **Shivam Jha**  
 Senior Security Engineer | Penetration Tester | Red Team Operator  
 📧 jhashivam2008@gmail.com  
-🔗 [GitHub](https://github.com/jhashivam2008)
+🔗 [GitHub](https://github.com/2008shivam)
 
 Certifications: eCPPT | eJPT | OSCP (in progress)
 
