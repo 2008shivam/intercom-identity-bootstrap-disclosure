@@ -115,6 +115,7 @@ Intercom('boot', { email: 'victim@example.com' });
 **Program:** De.Fi  
 **Reward:** $200 USDT (BSC chain)  
 **Status:** ✅ Accepted & Paid
+**Payment Proof:** ![Payment Proof](https://raw.githubusercontent.com/2008shivam/intercom-identity-bootstrap-disclosure/main/Proof/de_fi_bounty_Payment.jpg)
 
 ---
 
